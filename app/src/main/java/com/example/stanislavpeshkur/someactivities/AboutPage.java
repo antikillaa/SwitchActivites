@@ -1,0 +1,22 @@
+package com.example.stanislavpeshkur.someactivities;
+
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+
+public class AboutPage extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_about_page);
+    }
+
+    public void onClickBirthday(View view) {
+        Intent intent = new Intent(AboutPage.this, BirthdayActivity.class);
+        startActivity(intent);
+
+    }
+
+}

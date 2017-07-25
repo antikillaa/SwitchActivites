@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SomeActivities</string>
+    <string name="about_text">
+        <b>Stas Peshkur</b>
+    </string>
+    <string name="about_text_title">
+        About
+    </string>
+    <string name="birthday_text_title">
+        Birthday
+    </string>
+    <string name="birthday_text">
+        010001001
+    </string>
+    <string name="data_transfer_text_title">
+        Data transfer
+    </string>
+    <string name="data_transfer_receive_title">
+        Data transfer recieve
+    </string>
+    <string name="main_activity_title">
+        Main page
+    </string>
+    <string name="WhoIsThief">Who Is Thief?</string>
+</resources>
